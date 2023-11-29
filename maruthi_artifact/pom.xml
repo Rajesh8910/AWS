@@ -29,6 +29,19 @@
     </dependency>
   </dependencies>
 
+   <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://18.224.43.88:8081/repository/sample-snapshot/</url>
+		 </snapshotRepository>
+		
+		 <repository>
+		    <id>nexusRepo</id>
+		    <url>http://18.224.43.88:8081/repository/sample-release/</url>
+		 </repository>
+  </distributionManagement>
+  
+
   <build>
     <finalName>maruthi_artifact</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
